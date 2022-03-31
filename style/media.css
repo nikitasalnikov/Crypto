@@ -166,13 +166,23 @@
 
 @media (max-width: 890px) {
   .header__content-bg {
-    top: 800px;
+    top: 10%;
+    left: -2%;
+    z-index: 0;
   }
   .header__content-title {
     font-size: 42px;
+    position: static;
+    z-index: 1;
+  }
+  .header__content-desc {
+    position: static;
+    z-index: 1;
   }
   .header__content-images {
     flex-direction: column;
+    position: static;
+    z-index: 1;
   }
   .header__content-left {
     margin-top: 40px;
