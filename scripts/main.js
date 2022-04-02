@@ -73,9 +73,6 @@ window.onload = function () {
     observer.observe(blueCandles);
 
     function setParallaxItemsStyle(scrollTopProcent) {
-      // content.style.cssText = `transform: translate(0%, -${
-      //   scrollTopProcent / 6
-      // }%);`;
       blueCandles.style.cssText = `transform: translate(0%, -${
         scrollTopProcent / 6
       }%);

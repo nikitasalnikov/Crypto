@@ -64,6 +64,10 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  .main__videocourse-test {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .main__endcourse-items {
     padding-left: 15px;
     padding-right: 15px;
@@ -170,6 +174,7 @@
     left: -2%;
     z-index: 0;
   }
+  
   .header__content-title {
     font-size: 42px;
     position: static;
@@ -203,7 +208,7 @@
     text-align: center;
   }
   .main__endcourse-candles {
-    top: 95px;
+    top: 40px;
   }
 }
 
@@ -237,9 +242,12 @@
 }
 
 @media (max-width: 768px) {
-  .main__course-title {
+  .main__course-title,
+  .main__videocourse-title,
+  .main__videocourse-subtitle {
     font-size: 32px;
   }
+
   .videocourse__item-left p {
     max-width: 480px;
   }
@@ -484,8 +492,13 @@
   .videocourse__item-left {
     align-items: flex-start;
   }
-  .videocourse__item-left p {
+  .videocourse__item-left p,
+  .main__videocourse-description p,
+  .main__videocourse-subdescription p {
     font-size: 16px;
+  }
+  .main__videocourse-subdescription {
+    padding: 20px;
   }
   .main__videocourse-item:nth-of-type(15) p {
     font-size: 22px;
@@ -551,6 +564,11 @@
   .header__content-title {
     font-size: 28px;
   }
+  .main__course-title,
+  .main__videocourse-title,
+  .main__videocourse-subtitle {
+    font-size: 26px;
+  }
   .header__content-desc {
     font-size: 17px;
   }
@@ -584,6 +602,9 @@
   }
   .main__endcourse-purpose p {
     font-size: 17px;
+  }
+  .swiper-slide img {
+    width: 100%;
   }
 }
 
